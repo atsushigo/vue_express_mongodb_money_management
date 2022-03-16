@@ -11,7 +11,7 @@ import FoundList from './views/FoundList'
 Vue.use(Router)
 
 const router = new Router({
-  mode: 'history',
+  //mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     { path: '*', name: '/404', component: Nofind },

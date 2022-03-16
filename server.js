@@ -15,6 +15,7 @@ const db = require('./config/keys').mongoURI;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+app.use(express.static("client/dist"))
 // Connect to mongodb
 mongoose
   .connect(

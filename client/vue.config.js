@@ -2,7 +2,7 @@ const path = require('path')
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-    baseUrl: '/', // 根據上下文目錄
+    baseUrl: './', // 根據上下文目錄
     outputDir: 'dist', // 輸出目錄
     assetsDir: 'assets', // 靜態資源目錄 (js, css, img, fonts)
     lintOnSave: false, // 是否開啟eslint保存時檢測，有效值：ture | false | 'error'
